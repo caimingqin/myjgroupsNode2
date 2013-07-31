@@ -21,6 +21,7 @@ public class NodeOne extends ReceiverAdapter implements ServletContextListener {
 			jChannel = new JChannel("udp.xml");
 			jChannel.setReceiver(this);
 			jChannel.connect("dms-cluster");
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
