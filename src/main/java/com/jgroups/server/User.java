@@ -12,12 +12,12 @@ public class User implements Serializable{
 	private String code;
 	private String name;
 	
-	private User() {
+	public User() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 	
-	private User(String code, String name) {
+	public User(String code, String name) {
 		super();
 		this.code = code;
 		this.name = name;
