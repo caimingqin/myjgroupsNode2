@@ -34,7 +34,8 @@ public class NodeOne extends ReceiverAdapter implements ServletContextListener {
 		Address dest = msg.dest();
 		System.out.println(dest);
 		System.out.println(src);
-		System.out.println(msg.getObject());
+		User u=(User) msg.getObject();
+		System.out.println(u);
 	}
 
 	@Override

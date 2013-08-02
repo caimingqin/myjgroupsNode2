@@ -4,7 +4,7 @@
 	  stack in stacks.xml, but doesn't use streaming state transfer and flushing
 	  author: Bela Ban
 -->
-
+<!--bind_addr="192.168.17.199"-->
 <config xmlns="urn:org:jgroups"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="urn:org:jgroups http://www.jgroups.org/schema/JGroups-3.3.xsd">
